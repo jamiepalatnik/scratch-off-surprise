@@ -1,4 +1,4 @@
-# Scratch-off Surprise
+# Scratch-Off Surprise
 #### Video Demo:  <URL HERE>
 #### Description:
 
