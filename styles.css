@@ -1,0 +1,4 @@
+/* Style canvas frame */
+canvas {
+    border: 10px solid #000;
+}
