@@ -31,6 +31,9 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [ ] Add music
 * [ ] Port it to an iOS app with Swift
 
+## Position canvas as an overlay on the surprise image
+* [ ] Fix canvas position on mobile
+
 ## Questions/Issues
 
 ## Resolved
