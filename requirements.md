@@ -14,7 +14,11 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Initial project setup
 * [x] Research HTML canvas and JavaScript
 * [x] Get the basic scratch-off effect working
-* [ ] Make sure it fits to screen with no horizontal or vertical scroll
+* [x] Use Git and GitHub to track changes
+* [x] Make sure page fits to screen with no horizontal or vertical scroll
+* [ ] Position canvas as an overlay on the surprise image
+* [ ] Upload 4 more animal images and create an array of the images
+* [ ] On click, display one of the images from the array and reset overlay
 * [ ] Publish on GitHub Pages
 * [ ] Add chunky buttons to reset and change picture, overlay, etc.
 * [ ] Test on different screen sizes and devices
@@ -33,6 +37,9 @@ For your final project (and your final project only!) it is reasonable to use AI
 * How to learn from ChatGPT/tutorials while ensuring that "the essence of the work must still be your own"? Cite the use of code copied from tools in code comments.
 
 ## Updates Log
+* 2024-11-20: Positioned image and canvas with CSS
+* 2024-11-16: Created new branch to experiment further
+* 2024-11-15: Published project to GitHub repo
 * 2024-11-13: Initial project setup and research, achieved working prototype
 
 ## Next Time

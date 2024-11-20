@@ -1,27 +1,19 @@
-// Get both canvases
-const imageCanvas = document.getElementById('imageCanvas');
+// Get image, overlay canvas, and canvas context
+const surpriseImage = document.getElementById('surpriseImage');
 const overlayCanvas = document.getElementById('overlayCanvas');
-const imageCtx = imageCanvas.getContext('2d');
 const overlayCtx = overlayCanvas.getContext('2d');
 
-// Load the image that will be revealed
-const image = new Image();
-image.src = 'images/duck.jpg';
+// Set canvas size equal to image size on load
+surpriseImage.onload = () => {
+    overlayCanvas.width = surpriseImage.offsetWidth;
+    overlayCanvas.height = surpriseImage.offsetHeight;
 
-image.onload = () => {
-    // Set both canvases to the image dimensions
-    imageCanvas.width = overlayCanvas.width = image.width;
-    imageCanvas.height = overlayCanvas.height = image.height;
-    
-    // Draw the image on the image canvas (bottom layer)
-    imageCtx.drawImage(image, 0, 0, imageCanvas.width, imageCanvas.height);
-    
-    // Draw an overlay on the overlay canvas (top layer)
+    // Draw an overlay on the overlay canvas
     overlayCtx.fillStyle = 'pink';
     overlayCtx.fillRect(0, 0, overlayCanvas.width, overlayCanvas.height);
 };
 
-// Scratch function for mouse/touch interaction
+// Scratch function for mouse/touch interaction (used ChatGPT)
 function scratch(e) {
     // Get the mouse/touch position relative to the overlay canvas
     const rect = overlayCanvas.getBoundingClientRect();
@@ -31,7 +23,7 @@ function scratch(e) {
     // Use 'destination-out' to erase only on the overlay canvas
     overlayCtx.globalCompositeOperation = 'destination-out';
     overlayCtx.beginPath();
-    overlayCtx.arc(x, y, 50, 0, Math.PI * 2, false); // Adjust radius as needed
+    overlayCtx.arc(x, y, 50, 0, Math.PI * 2, false);
     overlayCtx.fill();
     overlayCtx.closePath();
 }

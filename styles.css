@@ -1,4 +1,29 @@
-/* Style canvas frame */
-canvas {
-    border: 10px solid #000;
+/* Make body a flex container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide scrollbars */
+body {
+    overflow: hidden;
+  }
+
+/* Size and style surprise image */
+#surpriseImage {
+    object-fit: contain;
+    max-height: 70vh;
+    max-width: 70vw;
+}
+
+/* Position canvas overlay */
+#overlayCanvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
