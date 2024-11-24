@@ -1,5 +1,26 @@
-// Get image, overlay canvas, and canvas context
+// Get surprise image
 const surpriseImage = document.getElementById('surpriseImage');
+
+// Initialize an array of animal images
+const animalImages = [
+    'images/butterfly.jpg',
+    'images/dolphin.jpg', 
+    'images/duck.jpg',
+    'images/horse.jpg',
+    'images/puppy.jpg'
+];
+
+function selectRandomImage() {
+    let randomNumber = Math.floor(Math.random() * animalImages.length);
+
+    // Set surpriseImage src to random image
+    surpriseImage.src = animalImages[randomNumber];
+};
+
+// Run the selectRandomImage function
+selectRandomImage();
+
+// Get overlay canvas and canvas context
 const overlayCanvas = document.getElementById('overlayCanvas');
 const overlayCtx = overlayCanvas.getContext('2d');
 
