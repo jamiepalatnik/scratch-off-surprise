@@ -4,9 +4,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    object-fit: contain;
-    max-height: 70vh;
-    max-width: 70vw;
+    width: auto;
+    height: 100%;
 }
 
 /* Position canvas overlay */
@@ -15,6 +14,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: auto;
+    height: 100%;
 }
 
 /* Hide scrollbars and prevent bounce on mobile */
@@ -31,15 +32,31 @@ button {
     border: none;
     padding: 20px 20px;
     border-radius: 20px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 900;
     text-align: center;
+    color: #000;
 }
 
-/* Position and style reset button */
+/* Set parent container for surprise image */
+.image-container {
+    position: relative;
+    height: 70vh;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Set parent container for buttons */
+.buttons-container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Postion reset button */
 #resetButton {
-    position: absolute;
-    top: 67%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
