@@ -19,27 +19,26 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Make sure page fits to screen with no horizontal or vertical scroll
 * [x] Position canvas as an overlay on the surprise image
 * [x] Upload 4 more animal images and create an array of the images
-* [ ] Add chunky button to display a random image from the array and reset overlay
+* [x] Add chunky button to display a random image from the array and reset overlay
+* [ ] Choose a theme (letters, numbers, animals, etc.) with random generation
 * [ ] Test on different screen sizes and devices
 
 ### Extra features to consider:
 * [ ] Upload or choose an image
-* [ ] Choose a theme (letters, numbers, animals, etc.) with random generation
 * [ ] Check completion
 * [ ] Choose overlay color or generate random color
 * [ ] Add music
 * [ ] Port it to an iOS app with Swift
-
-## Position canvas as an overlay on the surprise image
-* [ ] Fix canvas position on mobile
 
 ## Questions/Issues
 
 ## Resolved
 * How to learn from ChatGPT/tutorials while ensuring that "the essence of the work must still be your own"? Cite the use of code copied from tools in code comments.
 * Walk through code line by line to make sure I understand EVERYTHING. This means looking up every method in documentation (MDN) and making sure I can understand it, explain it, and possibly optimize it.
+* Absolute positioning is an appropriate choice for overlapping elements like my surprise image and canvas, but I can add a parent container with relative positioning to ensure responsiveness (my own summary of conversation with ChatGPT)
 
 ## Updates Log
+* 2024-12-5: Added buttons in test branch
 * 2024-11-25: Uploaded SVG for refresh icon, added button to CSS
 * 2024-11-23: Uploaded more animal images, created an array of the images, and created a function to display a random image on load
 * 2024-11-20: Positioned image and canvas with CSS
