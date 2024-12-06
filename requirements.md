@@ -41,7 +41,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images
 
 ## Updates Log
-* 2024-12-5: Added reset button and adjusted positioning
+* 2024-12-5: Added reset button, adjusted positioning, and added code to avoid repeating images
 * 2024-11-25: Uploaded SVG for refresh icon, added button to CSS
 * 2024-11-23: Uploaded more animal images, created an array of the images, and created a function to display a random image on load
 * 2024-11-20: Positioned image and canvas with CSS
