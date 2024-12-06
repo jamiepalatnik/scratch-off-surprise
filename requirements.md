@@ -20,7 +20,9 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Position canvas as an overlay on the surprise image
 * [x] Upload 4 more animal images and create an array of the images
 * [x] Add chunky button to display a random image from the array and reset overlay
+* [x] Add code to avoid repeating images
 * [ ] Choose a theme (letters, numbers, animals, etc.) with random generation
+* [ ] Replace RESET button text with refresh SVG icon
 * [ ] Test on different screen sizes and devices
 
 ### Extra features to consider:
@@ -36,20 +38,16 @@ For your final project (and your final project only!) it is reasonable to use AI
 * How to learn from ChatGPT/tutorials while ensuring that "the essence of the work must still be your own"? Cite the use of code copied from tools in code comments.
 * Walk through code line by line to make sure I understand EVERYTHING. This means looking up every method in documentation (MDN) and making sure I can understand it, explain it, and possibly optimize it.
 * Absolute positioning is an appropriate choice for overlapping elements like my surprise image and canvas, but I can add a parent container with relative positioning to ensure responsiveness (my own summary of conversation with ChatGPT)
+* Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images
 
 ## Updates Log
-* 2024-12-5: Added buttons in test branch
+* 2024-12-5: Added reset button and adjusted positioning
 * 2024-11-25: Uploaded SVG for refresh icon, added button to CSS
 * 2024-11-23: Uploaded more animal images, created an array of the images, and created a function to display a random image on load
 * 2024-11-20: Positioned image and canvas with CSS
 * 2024-11-16: Created new branch to experiment further
 * 2024-11-15: Published project to GitHub repo
 * 2024-11-13: Initial project setup and research, achieved working prototype
-
-## Next Time
-Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images
-
-Adjust button
 
 ## Time Tracker
 Started tracking my time with WakaTime. I'll report time tracked in my dashboard at the end of the project.

@@ -11,11 +11,25 @@ const animalImages = [
 ];
 
 // Define selectRandomImage function
+let shownImages = {};
+let shownImagesCount = 0;
+
 function selectRandomImage() {
     let randomNumber = Math.floor(Math.random() * animalImages.length);
 
-    // Set surpriseImage src to random image
-    surpriseImage.src = animalImages[randomNumber];
+    // Don't repeat images
+    if (!shownImages[randomNumber]){
+        // Set surpriseImage src to random image
+        surpriseImage.src = animalImages[randomNumber];
+        shownImages[randomNumber] = true;
+        shownImagesCount++;
+        if (shownImagesCount === animalImages.length){
+            shownImagesCount = 0;
+            shownImages = {};
+        }
+    } else {
+        selectRandomImage();
+    }
 }
 
 // Get overlay canvas and canvas context
