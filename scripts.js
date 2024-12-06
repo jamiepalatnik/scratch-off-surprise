@@ -3,12 +3,28 @@ const surpriseImage = document.getElementById('surpriseImage');
 
 // Initialize an array of animal images
 const animalImages = [
-    'images/butterfly.jpg',
-    'images/dolphin.jpg', 
-    'images/duck.jpg',
-    'images/horse.jpg',
-    'images/puppy.jpg'
+    'images/animals/bunny.jpg',
+    'images/animals/butterfly.jpg',
+    'images/animals/dolphin.jpg', 
+    'images/animals/duck.jpg',
+    'images/animals/horse.jpg',
+    'images/animals/kitten.jpg', 
+    'images/animals/lion.jpg',
+    'images/animals/parakeet.jpg',
+    'images/animals/puppy.jpg',
+    'images/animals/turtle.jpg'
 ];
+
+// Initialize an array of letter images
+const letterImages = [
+    'images/letters/pinkblue-a.jpeg',
+    'images/letters/pinkblue-b.jpeg',
+    'images/letters/pinkblue-c.jpeg',
+    'images/letters/pinkblue-d.jpeg',
+    'images/letters/pinkblue-e.jpeg'
+];
+
+// Initialize an array of number images
 
 // Define selectRandomImage function
 let shownImages = {};
