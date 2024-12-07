@@ -22,7 +22,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Add chunky button to display a random image from the array and reset overlay
 * [x] Add code to avoid repeating images
 * [x] Choose a theme (letters, numbers, animals, etc.) with random generation
-* [ ] Add modals for choose a theme and info
+* [x] Add modals for choose a theme and info
 * [ ] Upload more animal images and letter and number images
 * [ ] Replace RESET button text with refresh SVG icon
 * [ ] Test on different screen sizes and devices

@@ -111,14 +111,14 @@ button {
   }
 
   p {
-    font-size: 36px;
+    font-size: 24px;
     text-align: left;
   }
 
   h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .buttons-container button {
-    margin: 0 50px;
+    margin: 0 10px;
   }
