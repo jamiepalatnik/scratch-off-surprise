@@ -21,7 +21,8 @@ The game is available as a free web app.
 1. Visit the site on desktop or mobile (mobile is best for little kids to play)
 2. Touch or hover over the overlay to reveal the surprise image hidden underneath!
 
-## References:
+#### References:
 * Code guidance from ChatGPT
-* Referred to this tutorial: https://webdesign.tutsplus.com/how-to-create-a-scratch-card-effect-in-vanilla-javascript--cms-108922t
+* Scratch-off effect tutorial: https://webdesign.tutsplus.com/how-to-create-a-scratch-card-effect-in-vanilla-javascript--cms-108922t
 * Idea to avoid repeating images when selecting a random image: https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 
+* Modal tutorial: https://www.w3schools.com/howto/howto_css_modals.asp

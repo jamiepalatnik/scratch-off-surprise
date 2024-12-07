@@ -10,10 +10,37 @@
     <div class="image-container">
         <img id="surpriseImage" src="images/duck.jpg" alt="Surprise image.">
         <canvas id="overlayCanvas"></canvas>
+
+        <!-- Themes modal -->
+        <div id="themesModal" class="modal">
+            <div class="modal-content">
+            <span id="themesClose" class="close">&times;</span>
+            <h1>Choose a theme:</h1>
+            <button id="themeAnimalsButton" class="themeButton">ANIMALS</button><br>
+            <button id="themeLettersButton" class="themeButton">LETTERS</button><br>
+            <button id="themeNumbersButton" class="themeButton">NUMBERS</button>
+            </div>
+        </div>
+
+        <!-- Info modal -->
+        <div id="infoModal" class="modal">
+            <div class="modal-content">
+            <span id="infoClose" class="close">&times;</span>
+            <h1>Scratch-Off Surprise</h1>
+            <p>Touch or hover over the overlay to reveal the surprise image hidden underneath!</p>
+            <p>Choose a theme: animals, letters, or numbers.</p>
+            <p>Have fun!</p>
+            </div>
+        </div>
+
     </div>
+
     <div class="buttons-container">
+        <button id="themesButton">THEMES</button>
         <button id="resetButton">RESET</button>
+        <button id="infoButton">INFO</button>
     </div>
+
     <script src="scripts.js"></script>
 </body>
 </html>
