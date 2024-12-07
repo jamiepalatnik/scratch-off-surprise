@@ -17,19 +17,45 @@ const animalImages = [
 
 // Initialize an array of letter images
 const letterImages = [
-    'images/letters/pinkblue-a.jpeg',
-    'images/letters/pinkblue-b.jpeg',
-    'images/letters/pinkblue-c.jpeg',
-    'images/letters/pinkblue-d.jpeg',
-    'images/letters/pinkblue-e.jpeg'
+    'images/letters/pinkblue-a.png',
+    'images/letters/pinkblue-b.png',
+    'images/letters/pinkblue-c.png',
+    'images/letters/pinkblue-d.png',
+    'images/letters/pinkblue-e.png',
+    'images/letters/pinkblue-f.png',
+    'images/letters/pinkblue-g.png',
+    'images/letters/pinkblue-h.png',
+    'images/letters/pinkblue-i.png',
+    'images/letters/pinkblue-j.png',
+    'images/letters/pinkblue-k.png',
+    'images/letters/pinkblue-l.png',
+    'images/letters/pinkblue-m.png',
+    'images/letters/pinkblue-n.png',
+    'images/letters/pinkblue-o.png',
+    'images/letters/pinkblue-p.png',
+    'images/letters/pinkblue-q.png',
+    'images/letters/pinkblue-r.png',
+    'images/letters/pinkblue-s.png',
+    'images/letters/pinkblue-t.png',
+    'images/letters/pinkblue-u.png',
+    'images/letters/pinkblue-v.png',
+    'images/letters/pinkblue-w.png',
+    'images/letters/pinkblue-w.png',
+    'images/letters/pinkblue-y.png',
+    'images/letters/pinkblue-z.png'
 ];
 
 // Initialize an array of number images
 const numberImages = [
-    'images/animals/parakeet.jpg',
-    'images/animals/turtle.jpg',
-    'images/letters/pinkblue-d.jpeg',
-    'images/letters/pinkblue-e.jpeg'
+    'images/numbers/aurora-1.png',
+    'images/numbers/aurora-2.png',
+    'images/numbers/aurora-3.png',
+    'images/numbers/aurora-4.png',
+    'images/numbers/aurora-5.png',
+    'images/numbers/aurora-6.png',
+    'images/numbers/aurora-7.png',
+    'images/numbers/aurora-8.png',
+    'images/numbers/aurora-9.png'
 ];
 
 // Define selectRandomImage function
