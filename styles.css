@@ -33,7 +33,7 @@ button {
     border: none;
     padding: 20px 20px;
     border-radius: 20px;
-    font-size: 22px;
+    font-size: 1rem;
     font-weight: 900;
     text-align: center;
     color: #000;
@@ -55,6 +55,15 @@ button {
     margin: 0 auto;
     text-align: center;
     margin-top: 20px;
+}
+
+.buttons-container button {
+    margin: 0 10px;
+  }
+
+/* Style reset button */
+#resetButton {
+    font-size: 2rem;
 }
 
 /* Style modals (from W3Schools modal tutorial, with my added customizations) */
@@ -94,7 +103,7 @@ button {
     position: absolute;
     top: 0;
     right: 10px;
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: bold;
   }
   
@@ -111,14 +120,10 @@ button {
   }
 
   p {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: left;
   }
 
   h1 {
-    font-size: 36px;
-  }
-
-  .buttons-container button {
-    margin: 0 10px;
+    font-size: 2rem;
   }

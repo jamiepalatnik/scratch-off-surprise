@@ -23,6 +23,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Add code to avoid repeating images
 * [x] Choose a theme (letters, numbers, animals, etc.) with random generation
 * [x] Add modals for choose a theme and info
+* [ ] Fix modal sizing
 * [ ] Upload more animal images and letter and number images
 * [ ] Replace RESET button text with refresh SVG icon
 * [ ] Test on different screen sizes and devices
@@ -43,6 +44,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images
 
 ## Updates Log
+* 2024-12-6: Uploaded letter and number images, added modals for theme and info buttons
 * 2024-12-5: Added reset button, adjusted positioning, and added code to avoid repeating images
 * 2024-11-25: Uploaded SVG for refresh icon, added button to CSS
 * 2024-11-23: Uploaded more animal images, created an array of the images, and created a function to display a random image on load
