@@ -44,6 +44,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images
 
 ## Updates Log
+* 2024-12-9: Adjusted button sizing to fit on mobile
 * 2024-12-6: Uploaded letter and number images, added modals for theme and info buttons
 * 2024-12-5: Added reset button, adjusted positioning, and added code to avoid repeating images
 * 2024-11-25: Uploaded SVG for refresh icon, added button to CSS
