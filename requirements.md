@@ -26,7 +26,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Fix modal sizing
 * [x] Upload more animal images and letter and number images
 * [x] Replace RESET button text with refresh SVG icon
-* [ ] Test on different screen sizes and devices
+* [x] Test on different screen sizes and devices
 
 ### Extra features to consider:
 * [ ] Upload or choose an image
