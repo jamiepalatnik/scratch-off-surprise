@@ -50,7 +50,7 @@ button {
     margin-top: 20px;
 }
 
-/* Set parent container for buttons */
+/* Set button parent container */
 .buttons-container {
     position: relative;
     margin: 0 auto;
@@ -60,6 +60,15 @@ button {
     grid-template-columns: 1fr auto 1fr;
     align-items: center;   
 }
+
+/* Desktop styles for button parent container */
+@media only screen and (min-width: 768px) {
+    .buttons-container {
+        margin-top: 50px;
+        width: 30vh;
+        gap: 50px;
+    }
+} 
 
 .buttons-container button {
     margin: 0 10px;
