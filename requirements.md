@@ -1,6 +1,6 @@
 # CS50x Final Project Requirements
 
-Last updated: 2024-11-13
+Last updated: 2024-12-10
 
 ## Overview
 The climax of this course is its final project. The final project is your opportunity to take your newfound savvy with programming out for a spin and develop your very own piece of software. So long as your project draws upon this course’s lessons, the nature of your project is entirely up to you. You may implement your project in any language(s). You are welcome to utilize infrastructure other than the CS50 Codespace. All that we ask is that you build something of interest to you, that you solve an actual problem, that you impact your community, or that you change the world. Strive to create something that outlives this course.
@@ -23,9 +23,9 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Add code to avoid repeating images
 * [x] Choose a theme (letters, numbers, animals, etc.) with random generation
 * [x] Add modals for choose a theme and info
-* [ ] Fix modal sizing
-* [ ] Upload more animal images and letter and number images
-* [ ] Replace RESET button text with refresh SVG icon
+* [x] Fix modal sizing
+* [x] Upload more animal images and letter and number images
+* [x] Replace RESET button text with refresh SVG icon
 * [ ] Test on different screen sizes and devices
 
 ### Extra features to consider:
@@ -44,6 +44,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images
 
 ## Updates Log
+* 2024-12-10: Adjusted modal sizing and added more images
 * 2024-12-9: Adjusted button sizing to fit on mobile
 * 2024-12-6: Uploaded letter and number images, added modals for theme and info buttons
 * 2024-12-5: Added reset button, adjusted positioning, and added code to avoid repeating images
