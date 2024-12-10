@@ -7,11 +7,16 @@ const animalImages = [
     'images/animals/butterfly.jpg',
     'images/animals/dolphin.jpg', 
     'images/animals/duck.jpg',
+    'images/animals/giraffe.jpg',
     'images/animals/horse.jpg',
     'images/animals/kitten.jpg', 
     'images/animals/lion.jpg',
+    'images/animals/monkey.jpg',
     'images/animals/parakeet.jpg',
+    'images/animals/peacock.jpg',
+    'images/animals/polar-bear.jpg',
     'images/animals/puppy.jpg',
+    'images/animals/seahorse.jpg',
     'images/animals/turtle.jpg'
 ];
 
