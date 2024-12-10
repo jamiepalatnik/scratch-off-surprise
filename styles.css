@@ -56,9 +56,9 @@ button {
     margin: 0 auto;
     text-align: center;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;   
 }
 
 .buttons-container button {
