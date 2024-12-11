@@ -27,6 +27,10 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Upload more animal images and letter and number images
 * [x] Replace RESET button text with refresh SVG icon
 * [x] Test on different screen sizes and devices
+* [ ] Refactor CSS to follow best practices
+* [ ] Experiment with overlay/button colors
+* [ ] Complete project description in README
+* [ ] Record video demo
 
 ### Extra features to consider:
 * [ ] Upload or choose an image
@@ -42,6 +46,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * Walk through code line by line to make sure I understand EVERYTHING. This means looking up every method in documentation (MDN) and making sure I can understand it, explain it, and possibly optimize it.
 * Absolute positioning is an appropriate choice for overlapping elements like my surprise image and canvas, but I can add a parent container with relative positioning to ensure responsiveness (my own summary of conversation with ChatGPT)
 * Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images
+* Avoid styling using IDs—using classes is best practice
 
 ## Updates Log
 * 2024-12-10: Adjusted modal sizing and added more images
