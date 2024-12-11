@@ -99,7 +99,7 @@ function setCanvas() {
         overlayCanvas.height = surpriseImage.offsetHeight;
 
         // Draw an overlay on the overlay canvas
-        overlayCtx.fillStyle = 'pink';
+        overlayCtx.fillStyle = '#FFCDDF';
         overlayCtx.fillRect(0, 0, overlayCanvas.width, overlayCanvas.height);
     }
 }
