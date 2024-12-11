@@ -58,7 +58,7 @@ button {
   }
   
   .buttons-container {
-    max-width: 768px;
+    max-width: 500px;
     margin-top: 50px;
     gap: 50px;
   }
