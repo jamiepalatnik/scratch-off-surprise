@@ -26,8 +26,8 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Replace RESET button text with refresh SVG icon
 * [x] Test on different screen sizes and devices
 * [x] Refactor CSS to follow best practices
-* [ ] Experiment with overlay/button colors
-* [ ] Complete project description in README
+* [x] Experiment with overlay/button colors
+* [x] Complete project description in README
 * [ ] Record video demo
 
 ### Extra features to consider:
