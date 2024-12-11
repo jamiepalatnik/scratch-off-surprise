@@ -1,15 +1,5 @@
-/* Size and style surprise image */
-#surpriseImage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: auto;
-    height: 100%;
-}
-
-/* Position canvas overlay */
-#overlayCanvas {
+/* Size and style surprise image and canvas */
+.surprise {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,6 +22,7 @@ body {
 button {
     background-color: pink;
     border: none;
+    margin: 0 10px;
     padding: 10px 10px;
     border-radius: 20px;
     font-size: 1rem;
@@ -45,9 +36,8 @@ button {
     position: relative;
     height: 70vh;
     width: auto;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
-    margin-top: 20px;
 }
 
 /* Set button parent container */
@@ -55,23 +45,24 @@ button {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    align-items: center;   
+    align-items: center; 
+    gap: 10px;  
 }
 
 /* Desktop styles for button parent container */
 @media only screen and (min-width: 768px) {
-    .buttons-container {
-        margin-top: 50px;
-        gap: 50px;
-    }
-} 
-
-.buttons-container button {
-    margin: 0 10px;
+  .image-container {
+    margin-top: 50px;
   }
+  
+  .buttons-container {
+    max-width: 768px;
+    margin-top: 50px;
+    gap: 50px;
+  }
+} 
 
 /* Style modals (from W3Schools modal tutorial, with my added customizations) */
 
