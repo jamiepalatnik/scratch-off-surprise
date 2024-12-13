@@ -1,12 +1,12 @@
 # Scratch-Off Surprise
-#### Video Demo: Coming soon
+#### Video Demo: https://www.youtube.com/watch?v=6Ury4iFr1is
 
 ## Introduction
 Inspired by the scratch-off minigames in the game Florence, I decided to create a scratch-off game web app that allows the player to touch or hover over an overlay to reveal a surprise picture underneath.
 
 My 3-year-old daughter loves to play Florence with me, but there are only a few examples of this scratch-off effect in the game. I decided to create my own version to expand the concept to create many different surprise experiences. You can think of it as a game, where the main mechanics are territorial acquisition (more of the picture is revealed as you clear the overlay) and discovery (a sense of wonder and surprise). I am also inspired by the task to reveal the map in games like those in The Legend of Zelda series.
 
-The game is available as a free web app.
+The game is available as a free web app at https://jamiepalatnik.github.io/scratch-off-surprise/
 
 ## How to play
 1. Visit the site on desktop or mobile (mobile is best for little kids to play)

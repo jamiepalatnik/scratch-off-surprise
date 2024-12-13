@@ -28,7 +28,7 @@ For your final project (and your final project only!) it is reasonable to use AI
 * [x] Refactor CSS to follow best practices
 * [x] Experiment with overlay/button colors
 * [x] Complete project description in README
-* [ ] Record video demo
+* [x] Record video demo
 
 ### Extra features to consider:
 * [ ] Upload or choose an image
@@ -42,9 +42,9 @@ For your final project (and your final project only!) it is reasonable to use AI
 ## Resolved
 * How to learn from ChatGPT/tutorials while ensuring that "the essence of the work must still be your own"? Cite the use of code copied from tools in code comments.
 * Walk through code line by line to make sure I understand EVERYTHING. This means looking up every method in documentation (MDN) and making sure I can understand it, explain it, and possibly optimize it.
-* Absolute positioning is an appropriate choice for overlapping elements like my surprise image and canvas, but I can add a parent container with relative positioning to ensure responsiveness (my own summary of conversation with ChatGPT)
-* Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images
-* Avoid styling using IDs—using classes is best practice
+* Absolute positioning is an appropriate choice for overlapping elements like my surprise image and canvas, but I can add a parent container with relative positioning to ensure responsiveness (my own summary of conversation with ChatGPT).
+* Refer to idea from https://stackoverflow.com/questions/20496746/random-image-display-without-repeat-with-javascript?rq=3 to avoid repeating images.
+* Avoid styling using IDs—using classes is best practice.
 
 ## Updates Log
 * 2024-12-11: Refactored CSS
@@ -60,4 +60,4 @@ For your final project (and your final project only!) it is reasonable to use AI
 * 2024-11-13: Initial project setup and research, achieved working prototype
 
 ## Time Tracker
-Started tracking my time with WakaTime. I'll report time tracked in my dashboard at the end of the project.
+Started tracking my time with WakaTime. I'll report time tracked in my dashboard at the end of the project (~17 hrs.)
