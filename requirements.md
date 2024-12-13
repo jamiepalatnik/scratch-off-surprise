@@ -47,7 +47,8 @@ For your final project (and your final project only!) it is reasonable to use AI
 * Avoid styling using IDs—using classes is best practice.
 
 ## Updates Log
-* 2024-12-11: Refactored CSS
+* 2024-12-12: Recorded demo video
+* 2024-12-11: Refactored CSS, updated colors, added project description
 * 2024-12-10: Adjusted modal sizing and added more images
 * 2024-12-9: Adjusted button sizing to fit on mobile
 * 2024-12-6: Uploaded letter and number images, added modals for theme and info buttons
